@@ -1,0 +1,14 @@
+{
+  "name": "automarketing-pro",
+  "version": "1.0.0",
+  "description": "Sistema de marketing automático",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": ["marketing", "automation", "ai"],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}

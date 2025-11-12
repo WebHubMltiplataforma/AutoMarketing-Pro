@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Marketing - Plataforma Financiera</title>
+    <link rel="stylesheet" href="css/dashboard-style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <h3>Menú Dashboard</h3>
+            <ul>
+                <li><a href="#analytics">Analíticas</a></li>
+                <li><a href="#campaigns">Campañas</a></li>
+                <li><a href="#automation">Automatización</a></li>
+                <li><a href="#reports">Reportes</a></li>
+            </ul>
+        </aside>
+        
+        <main class="dashboard-content">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h4>Visitas Web</h4>
+                    <div class="metric-value" id="web-visits">0</div>
+                </div>
+                <div class="metric-card">
+                    <h4>Conversiones</h4>
+                    <div class="metric-value" id="conversions">0</div>
+                </div>
+                <div class="metric-card">
+                    <h4>ROI Campañas</h4>
+                    <div class="metric-value" id="roi">0%</div>
+                </div>
+            </div>
+            
+            <div class="chart-container">
+                <canvas id="performance-chart"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/dashboard-charts.js"></script>
+    <script src="js/analytics-tracker.js"></script>
+</body>
+</html>
